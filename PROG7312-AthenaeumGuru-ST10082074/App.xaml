@@ -1,0 +1,9 @@
+﻿<Application x:Class="PROG7312_AthenaeumGuru_ST10082074.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PROG7312_AthenaeumGuru_ST10082074"
+             StartupUri="Pages/StartPage.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
