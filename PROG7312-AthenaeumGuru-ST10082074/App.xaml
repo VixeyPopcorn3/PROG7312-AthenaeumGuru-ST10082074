@@ -4,6 +4,37 @@
              xmlns:local="clr-namespace:PROG7312_AthenaeumGuru_ST10082074"
              StartupUri="Pages/StartPage.xaml">
     <Application.Resources>
-         
+        <ImageBrush x:Key="ButtonPressedImageBrush" ImageSource="/Resources/ButtonPressed.png" />
+        <ImageBrush x:Key="ButtonHoverImageBrush" ImageSource="/Resources/ButtonHover.png" />
+        <SolidColorBrush x:Key="CreamBrush" Color="#80FFF3E1"/>
+        <Style TargetType="Button" x:Key="CustomButtonStyle">
+            <Setter Property="FontFamily" Value="Script MT Bold" />
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                BorderBrush="Transparent"
+                                BorderThickness="1"
+                                Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"/>
+                            <Border.Background>
+                                <ImageBrush ImageSource="/Resources/Button.png"/>
+                            </Border.Background>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonHoverImageBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonPressedImageBrush}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>

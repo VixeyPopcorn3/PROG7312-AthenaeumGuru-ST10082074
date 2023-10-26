@@ -98,8 +98,8 @@
                     <ImageBrush ImageSource="/Resources/Left Arrow.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="ResetBtn" Content="Reset" HorizontalAlignment="Left" Margin="156,122,0,0" VerticalAlignment="Top" FontSize="36" Click="ResetBtn_Click" Background="#FFFC15FF" FontFamily="Elephant" Width="115" Height="48"/>
-            <Button x:Name="CheckBtn" Content="Check" HorizontalAlignment="Left" Margin="911,118,0,0" VerticalAlignment="Top" Background="#FF7FFF09" BorderBrush="White" FontFamily="Elephant" FontSize="36" Width="132" Click="CheckBtn_Click"/>
+            <Button x:Name="ResetBtn" Style="{StaticResource CustomButtonStyle}" Content="Reset" HorizontalAlignment="Left" Margin="128,122,0,0" VerticalAlignment="Top" Click="ResetBtn_Click" Width="148" Height="70"/>
+            <Button x:Name="CheckBtn" Style="{StaticResource CustomButtonStyle}" Content="Check" HorizontalAlignment="Left" Margin="911,118,0,0" VerticalAlignment="Top" Click="CheckBtn_Click" Width="148" Height="70"/>
         </Grid>
         <!--<MediaElement x:Name="mediaPlayer" Source="/Resources/Emrod - Jennesys.mp3"  LoadedBehavior="Manual" UnloadedBehavior="Manual"  />-->
     </StackPanel>
