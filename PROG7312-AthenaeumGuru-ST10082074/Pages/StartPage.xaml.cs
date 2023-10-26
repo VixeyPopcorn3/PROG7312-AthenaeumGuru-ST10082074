@@ -20,11 +20,13 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
     public partial class StartPage : Window
     {
         private ReOrderBooks reOrderB;
+        private IdentifyAreasScreen identifyAreas;
 
         public StartPage()
         {
             InitializeComponent();
             reOrderB = new ReOrderBooks();
+            identifyAreas = new IdentifyAreasScreen();
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
@@ -35,6 +37,11 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
         private void ReOrderBtn_Click(object sender, RoutedEventArgs e)
         {
             reOrderB.Show();
+            this.Close();
+        }
+        private void IdentifyAreasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            identifyAreas.Show();
             this.Close();
         }
     }

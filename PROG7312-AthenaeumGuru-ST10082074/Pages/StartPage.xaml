@@ -15,9 +15,21 @@
         <Label Content="Athenaeum Guru" HorizontalAlignment="Center" Foreground="White" FontSize="90" FontWeight="Bold" FontFamily="Baskerville Old Face" Width="665"/>
         <Label Content="Games" Foreground="White" FontSize="90" FontWeight="Bold" FontFamily="Baskerville Old Face" Width="273"/>
         <Canvas Height="300"  Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type StackPanel}}}" >
-            <Button x:Name="ReOrderBtn" Content="ReOrder Books" Canvas.Left="120" Canvas.Top="125" FontSize="36" FontFamily="Cambria" Background="#FF8AD8FD" Click="ReOrderBtn_Click"/>
-            <Button Content="Identify Areas"  Canvas.Left="480" Canvas.Top="125" FontSize="36" FontFamily="Cambria" Background="#FFF4FD8A" IsEnabled="False"/>
-            <Button Content="Find Call Number"  Canvas.Right="100" Canvas.Top="125" FontSize="36" FontFamily="Cambria" Background="#FFF4FD8A" IsEnabled="False"/>
+            <Button x:Name="ReOrderBtn" Content="ReOrder Books" Canvas.Left="51" Canvas.Top="110" FontSize="36" FontFamily="Script MT Bold" Click="ReOrderBtn_Click" Height="130" Width="320" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resources/Button.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="Identify Areas"  Canvas.Left="447" Canvas.Top="110" FontSize="36" FontFamily="Script MT Bold" Click="IdentifyAreasBtn_Click" Width="320" Height="130" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resources/Button.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="Find Call Number"  Canvas.Right="100" Canvas.Top="110" FontSize="36" FontFamily="Cambria" IsEnabled="False" Width="320" Height="130" BorderBrush="{x:Null}" HorizontalAlignment="Left" Canvas.Left="835" VerticalAlignment="Center">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resources/Button.png"/>
+                </Button.Background>
+            </Button>
         </Canvas>
         <Button x:Name="ExitBtn" Content="Exit" HorizontalAlignment="Center" FontSize="36" FontFamily="Cambria" Background="#FFFD8A8A" Width="124" Click="ExitBtn_Click"/>
     </StackPanel>

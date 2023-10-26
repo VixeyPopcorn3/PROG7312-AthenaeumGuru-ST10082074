@@ -60,6 +60,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\CallNumGen.cs" />
+    <Page Include="Pages\IdentifyAreasScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\ReOrderBooks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -70,6 +74,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\IdentifyingAreas.cs" />
+    <Compile Include="Pages\IdentifyAreasScreen.xaml.cs">
+      <DependentUpon>IdentifyAreasScreen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ReOrderBooks.xaml.cs">
       <DependentUpon>ReOrderBooks.xaml</DependentUpon>
     </Compile>
@@ -121,6 +129,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\LeftBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\OpenBookImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DeskTopView.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
