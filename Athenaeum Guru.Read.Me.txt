@@ -25,6 +25,54 @@ These instructions will help you get a copy of the project up and running on you
 
 3. Build and run the project.
 
+## Features
+
+1.Start Page:
+	The home page of the app where users can select from various educational games.
+
+2.Identify Areas Game:
+	A game that tests the user's knowledge of library call numbers.
+	Features randomization of call numbers.
+	Tracks and displays the user's score.
+	Allows users to check their answers.
+	Provides a "Help" option for guidance.
+
+3.Reorder Books Game:
+	A game that challenges users to arrange books in the correct order.
+	Randomly shuffles books at the beginning of each game.
+	Allows users to select and move books.
+	Provides immediate feedback on book placement.
+	Tracks and displays the user's score.
+	Keeps a record of the high score.
+
+4.High Scores:
+	Displays the highest scores achieved by the user in both games.
+	Allows users to track their progress and achievements.
+
+5.Help/Instructions:
+	Offers instructions on how to play each game.
+	Provides helpful information to guide users.
+
+6.Reset and Return Options:
+	Allows users to reset a game and start over.
+	Provides a way to return to the start page.
+
+7.Randomization:
+	Incorporates randomness to ensure variety and challenge in both games.
+
+8.Score Calculation:
+	Calculates and updates scores based on user performance.
+	Reflects the accuracy of user responses in the games.
+
+9.UI Enhancements:
+	An intuitive and visually appealing user interface for an engaging user experience.
+	Use of animations and colours to enhance the visual appeal.
+
+10.Performance Tracking:
+	Monitors user progress and provides feedback on areas where improvement is needed.
+
+11.Scalability:
+	Built to accommodate additional games or educational features in the future.
 
 ## How to Play Reorder Books game.
 
@@ -74,5 +122,6 @@ These instructions will help you get a copy of the project up and running on you
 9. Want to go back to Main page? Click the Back button on the top left.
 
 Enjoy Athenaeum Guru
+Creator VixeyPopcorn/Zanne Smit/ST10082074
 
 
