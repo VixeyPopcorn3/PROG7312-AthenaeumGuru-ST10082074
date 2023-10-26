@@ -290,7 +290,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             }
             else
             {
-                MessageBox.Show("Please Reset, You can't play a single game over and over. Learn with a new game.");
+                MessageBox.Show("Please Reset, You can't play a single game over and over. Learn with a new game rather.");
             }
         }
         private void HelpBtn_Click(object sender, EventArgs e)
