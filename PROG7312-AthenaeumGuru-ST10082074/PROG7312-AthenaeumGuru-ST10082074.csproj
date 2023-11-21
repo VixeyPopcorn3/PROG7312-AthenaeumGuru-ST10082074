@@ -173,6 +173,7 @@
     <Resource Include="Resources\book pressed.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Feedback Changes.txt" />
     <Content Include="Resources\Gibran Alcocer - Idea 15.mp3" />
     <Resource Include="Resources\MusicIcon2.png" />
     <Resource Include="Resources\MusicIcon.png" />
