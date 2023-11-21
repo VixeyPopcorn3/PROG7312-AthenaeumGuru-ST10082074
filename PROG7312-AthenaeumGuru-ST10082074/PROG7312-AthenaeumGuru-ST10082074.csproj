@@ -172,5 +172,8 @@
     <Resource Include="Resources\book hover.png" />
     <Resource Include="Resources\book pressed.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Gibran Alcocer - Idea 15.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
