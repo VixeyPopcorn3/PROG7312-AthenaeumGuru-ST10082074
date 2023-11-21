@@ -84,10 +84,10 @@ These instructions will help you get a copy of the project up and running on you
 3. Find the corresponding 1st-level category on the right page and click on it. (eg. 000-099 Computer science, information & general works)
 
 4. Once you are sure about the selection Click the "Check" button to see if you are correct. 
-	-If you have selected the incorrect category you will be informed and new game will be ready for you when you click the "ok" button of the message.
-	-If you have selected the correct category you will be informed and the next level of the game will be ready for you when you click the "ok" button of the message.
-		-Now you can complete the game the same way you did with the first level just a little harder by selecting the 2nd Level Catagory that matches the text on the left page and you will be informed of correct and incorrect answers.
-		-Once you have completed 2 levels you will be given a new game.
+	* If you have selected the incorrect category you will be informed and new game will be ready for you when you click the "ok" button of the message.
+	* If you have selected the correct category you will be informed and the next level of the game will be ready for you when you click the "ok" button of the message.
+	  	* Now you can complete the game the same way you did with the first level just a little harder by selecting the 2nd Level Catagory that matches the text on the left page and you will be informed of correct and incorrect answers.
+		* Once you have completed 2 levels you will be given a new game.
 
 6. Observe your score for the current game and your total score for all your games. This is in the top middle of the screen.
 
