@@ -23,6 +23,7 @@
                 </Button.Background>
             </Button>
             <Label x:Name="Scorelbl" Content="Score: " Canvas.Left="244" Canvas.Top="26" FontFamily="Bookman Old Style" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Width="251"/>
+            <Label x:Name="TotalScorelbl" Content="Total Score: " Canvas.Left="544" Canvas.Top="27" FontFamily="Bookman Old Style" FontSize="36" FontWeight="Bold" Width="486" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
         <Canvas Height="538" Width="1008" x:Name ="BookCanvas" HorizontalAlignment="Left" Margin="40,0,0,0">
             <Canvas.Background>
@@ -67,6 +68,8 @@
                     <ImageBrush ImageSource="/Resources/Button.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
+            <Button x:Name="Musicbtn" Content="Button" HorizontalAlignment="Left" Margin="1124,55,0,0" VerticalAlignment="Top"/>
         </Grid>
+        <MediaElement x:Name="backgroundMusic" Source="C:\Users\zanne\source\repos\PROG7312-AthenaeumGuru-ST10082074\PROG7312-AthenaeumGuru-ST10082074\Resources\Gibran Alcocer - Idea 15.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop" Volume="0.5" />
     </StackPanel>
 </Window>
