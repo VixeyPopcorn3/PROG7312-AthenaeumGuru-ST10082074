@@ -56,12 +56,12 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             backgroundMusic.Play();
         }
 
-        /*private void Musicbtn_Click(object sender, RoutedEventArgs e)
+        private void Musicbtn_Click(object sender, RoutedEventArgs e)
         {
             if(music)
             {
                 // To pause the music
-                backgroundMusic.Pause();
+                backgroundMusic.Stop();
                 music = false;
             }
             else
@@ -70,7 +70,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
                 backgroundMusic.Play();
                 music = true;
             }
-        }*/
+        }
 
         // PopulateRandomNodes: Populates the buttons and label with random Cattagories.
         private void PopulateRandomNodes()
@@ -112,6 +112,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
 
             
         }
+
 
         // Opt1btn_Click: Event handler for the first book click, stores information about the selected book.
         private void Opt1btn_Click(object sender, RoutedEventArgs e)

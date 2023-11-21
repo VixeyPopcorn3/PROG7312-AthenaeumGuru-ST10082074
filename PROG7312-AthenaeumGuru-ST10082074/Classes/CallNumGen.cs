@@ -17,6 +17,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Classes
         {
 
         }
+
         //Generate 10 Random Library Call Numbers 
         public List<string> GenerateList()
         {
@@ -60,6 +61,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Classes
 
         }
 
+        //Sorts Call Numbers to compare later stores in list
         public List<string> SortedList()
         {
             List<string> sortList = callNums.ToList();
@@ -67,6 +69,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Classes
             return sortList;
         }
 
+        //list storing the srted order
         public List<string> SortedOrder()
         {
             int Count = -1;
@@ -110,6 +113,17 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Classes
                 }
             }
             return orderSorted;
+        }
+
+        //Checks the users highscore
+        public string CheckHighScore(int HighScore, int Score)
+        {
+            if (HighScore < Score)
+            {
+                HighScore = Score;
+                return $"Your HighScore: {HighScore}/10";
+            }
+            return "Your HighScore";
         }
     }
 }
