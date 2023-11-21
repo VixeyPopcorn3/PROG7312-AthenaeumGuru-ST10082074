@@ -56,7 +56,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             backgroundMusic.Play();
         }
 
-        private void Musicbtn_Click(object sender, RoutedEventArgs e)
+        /*private void Musicbtn_Click(object sender, RoutedEventArgs e)
         {
             if(music)
             {
@@ -70,7 +70,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
                 backgroundMusic.Play();
                 music = true;
             }
-        }
+        }*/
 
         // PopulateRandomNodes: Populates the buttons and label with random Cattagories.
         private void PopulateRandomNodes()
