@@ -1,0 +1,16 @@
+# Feedback Changes
+## Part 1
+1. Changed strings logic where I used "==" and such
+2. Added More Comments
+3. Moved Methods 
+4. Added Help Button
+
+## Part 2
+1. Added More Comments
+2. Moved Methods 
+
+## Overall Changes
+1. Changed Read.Me
+2. Added music to the background of each game as an added feature not covered in class.
+	* Music Button Allows user to stop and start the music
+3. Edited Buttons Styles
