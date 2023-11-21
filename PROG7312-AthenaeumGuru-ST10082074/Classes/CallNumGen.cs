@@ -20,8 +20,8 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Classes
         //Generate 10 Random Library Call Numbers 
         public List<string> GenerateList()
         {
-            String sub = "";
-            String Hold = "";
+            String sub;
+            String Hold;
 
             for (int i = 0; i < 10; i++)
             {

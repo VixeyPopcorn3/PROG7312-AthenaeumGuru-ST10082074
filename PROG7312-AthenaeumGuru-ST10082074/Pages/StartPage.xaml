@@ -25,7 +25,7 @@
                     <ImageBrush ImageSource="/Resources/Button.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Find Call Number"  Canvas.Right="100" Canvas.Top="110" FontSize="36" FontFamily="Cambria" IsEnabled="False" Width="320" Height="130" BorderBrush="{x:Null}" HorizontalAlignment="Left" Canvas.Left="835" VerticalAlignment="Center">
+            <Button Content="Find Call Number" Style="{StaticResource CustomButtonStyle}" Canvas.Right="100" Canvas.Top="110"  FontFamily="Script MT Bold" Click="FindingCallNumbersBtn_Click" Width="320" Height="130" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="843">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/Button.png"/>
                 </Button.Background>

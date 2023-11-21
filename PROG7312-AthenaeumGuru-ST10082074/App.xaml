@@ -6,6 +6,8 @@
     <Application.Resources>
         <ImageBrush x:Key="ButtonPressedImageBrush" ImageSource="/Resources/ButtonPressed.png" />
         <ImageBrush x:Key="ButtonHoverImageBrush" ImageSource="/Resources/ButtonHover.png" />
+        <ImageBrush x:Key="ButtonPressedImageBrush2" ImageSource="/Resources/book pressed.png" />
+        <ImageBrush x:Key="ButtonHoverImageBrush2" ImageSource="/Resources/book hover.png" />
         <SolidColorBrush x:Key="CreamBrush" Color="#80FFF3E1"/>
         <Style TargetType="Button" x:Key="CustomButtonStyle">
             <Setter Property="FontFamily" Value="Script MT Bold" />
@@ -29,6 +31,63 @@
                             </Trigger>
                             <Trigger Property="IsPressed" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonPressedImageBrush}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="CustomOtherButtonStyle">
+            <Setter Property="FontFamily" Value="Script MT Bold" />
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                BorderBrush="Transparent"
+                                BorderThickness="1"
+                                Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"/>
+                            <Border.Background>
+                                <ImageBrush ImageSource="/Resources/Button.png"/>
+                            </Border.Background>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource CreamBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonPressedImageBrush}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="CustomButtonStyle2">
+            <Setter Property="FontFamily" Value="Papyrus" />
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                BorderBrush="Transparent"
+                                BorderThickness="1"
+                                Padding="35,0,0,0">
+                            <ContentPresenter HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                            <Border.Background>
+                                <ImageBrush ImageSource="/Resources/Book 2.png"/>
+                            </Border.Background>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonHoverImageBrush2}" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource ButtonPressedImageBrush2}" />
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
