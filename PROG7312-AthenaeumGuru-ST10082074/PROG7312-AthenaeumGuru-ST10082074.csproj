@@ -63,6 +63,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\CallNumGen.cs" />
+    <Compile Include="Classes\FindingCallNumbers.cs" />
+    <Compile Include="Classes\Tree.cs" />
+    <Compile Include="Classes\TreeNode.cs" />
+    <Compile Include="Pages\FindingCallNumbersScreen .xaml.cs">
+      <DependentUpon>FindingCallNumbersScreen .xaml</DependentUpon>
+    </Compile>
+    <Page Include="Pages\FindingCallNumbersScreen .xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\IdentifyAreasScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -145,6 +155,22 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\HelpButtonIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ButtonPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DeweyDecimal.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\book 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\book hover.png" />
+    <Resource Include="Resources\book pressed.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

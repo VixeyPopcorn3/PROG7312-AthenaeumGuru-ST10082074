@@ -53,12 +53,12 @@
             </Canvas>
         </Canvas>
         <Grid Height="114">
-            <Button x:Name="ResetBtn" Click="ResetBtn_Click" Content="Reset" HorizontalAlignment="Left" Margin="146,5,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Elephant" Width="200" Height="100" BorderBrush="{x:Null}">
+            <Button x:Name="ResetBtn" Style="{StaticResource CustomButtonStyle}" Click="ResetBtn_Click" Content="Reset" HorizontalAlignment="Left" Margin="146,5,0,0" VerticalAlignment="Top" Width="200" Height="100" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/Button.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="CheckBtn" Click="CheckBtn_Click" Content="Check" HorizontalAlignment="Left" Margin="753,5,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" FontFamily="Elephant" FontSize="36" Width="200" Height="100">
+            <Button x:Name="CheckBtn" Style="{StaticResource CustomButtonStyle}" Click="CheckBtn_Click" Content="Check" HorizontalAlignment="Left" Margin="753,5,0,0" VerticalAlignment="Top" Width="200" Height="100">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/Button.png" Stretch="Uniform"/>
                 </Button.Background>

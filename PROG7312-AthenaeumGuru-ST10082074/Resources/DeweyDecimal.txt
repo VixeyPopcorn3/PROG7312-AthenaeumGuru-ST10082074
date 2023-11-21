@@ -1,0 +1,1022 @@
+﻿l1	000-999	Dewey Decimal System
+l2	000-099	Computer science, information & general works 	
+l3	000-009	Computer science, knowledge & systems 	
+l4	000	Computer science, information, general works
+l4	001	Knowledge 
+l4	002	The book 
+l4	003	Systems 
+l4	004	Computer science
+l4	005	Computer programming, programs, & data
+l4	006	Special computer methods 
+l3	010-019	Bibliographies 	
+l4	010	Bibliography 
+l4	011	Bibliographies and catalogs
+l4	012	Bibliographies and catalogs of individuals
+l4	014	Of anonymous & pseudonymous works
+l4	015	Of works from specific places
+l4	016	Of works on specific subjects
+l4	017	General subject catalogs
+l3	020-029	Library & information sciences 	
+l4	020	Library and information sciences
+l4	021	Relationships of libraries and archives
+l4	022	Administration of physical plant 
+l4	023	Personnel management
+l4	025	Operations of libraries and archives
+l4	026	Libraries and archives devoted to specific subjects
+l4	027	General libraries and archives
+l4	028	Reading and use of other information media
+l3	030-039	Encyclopedias & books of facts 	
+l4	030	General encyclopedic works
+l4	031	General encyclopedic works in American English
+l4	032	General encyclopedic works in English
+l4	033	Encyclopedias in other Germanic languages 
+l4	034	Encyclopedias in French, Occitan & Catalan
+l4	035	Encyclopedias in Italian, Romanian & related languages 
+l4	036	Encyclopedias in Spanish, Portuguese & Galician
+l4	037	General encyclopedic works in Slavic languages
+l4	038	General encyclopedic works in Scandinavian languages
+l4	039	General encyclopedic works in other languages
+l3	050-059	Magazines, journals & serials 	
+l4	050	General serial publications 
+l4	051	General serial publications in American English
+l4	052	General serial publications in English
+l4	053	Serials in other Germanic languages
+l4	054	Serials in French, Occitan & Catalan
+l4	055	Serials in Italian, Romanian & related languages 
+l4	056	Serials in Spanish, Portuguese & Galician
+l4	057	General serial publications in Slavic languages
+l4	058	Serials in Scandinavian languages 
+l4	059	General serial publications in other languages
+l3	060-069	Associations, organizations & museums	
+l4	060	General organizations & museum science
+l4	061	General organizations in North America
+l4	062	General organizations in British Isles
+l4	063	General organizations in Germany; in Central Europe
+l4	064	General organizations in France and Monaco
+l4	065	General organizations in Italy
+l4	066	General organizations in Spain
+l4	067	General organizations in Russia; in Eastern Europe
+l4	068	General organizations in other geographic areas
+l4	069	Museology (Museum science)
+l3	070-079	News media, journalism & publishing 	
+l4	070	Documentary, educational, news media; journalism
+l4	071	Journalism and newspapers in North America
+l4	072	Journalism and newspapers in British Isles
+l4	073	Journalism and newspapers in Germany
+l4	074	Journalism and newspapers in France and Monaco
+l4	075	Journalism and newspapers in Italy
+l4	076	Journalism and newspapers in Spain
+l4	077	Journalism and newspapers in Russia
+l4	078	Journalism and newspapers in Scandinavia
+l4	079	Newspapers in other geographic areas
+l3	080-089	Quotations 	
+l4	080	General collections 
+l4	081	General collections in American English
+l4	082	General collections in English
+l4	083	General collections in other Germanic languages
+l4	084	General collections in French, Occitan & Catalan
+l4	085	Collections in Italian, Romanian & related languages 
+l4	086	Collections in Spanish, Portuguese & Galician
+l4	087	General collections in Slavic languages
+l4	088	General collections in Scandinavian languages
+l4	089	General collections in other languages
+l3	090-099	Manuscripts & rare books	
+l4	090	Manuscripts and rare books
+l4	091	Manuscripts 
+l4	092	Block books 
+l4	093	Incunabula 
+l4	094	Printed books 
+l4	095	Books notable for bindings 
+l4	096	Books notable for illustrations and materials
+l4	097	Books notable for ownership or origin 
+l4	098	Prohibited works, forgeries, hoaxes
+l4	099	Books notable for format
+l2	100-199	Philosophy & psychology 
+l3	100-109	Philosophy 	
+l4	100	Philosophy & psychology 
+l4	101	Theory of philosophy 
+l4	102	Miscellany of philosophy
+l4	103	Dictionaries & encyclopedias 
+l4	105	Serial publications of philosophy
+l4	106	Organizations & management 
+l4	107	Education, research & related topics
+l4	108	Groups of people 
+l4	109	History and collected biography
+l3	110-119	Metaphysics 	
+l4	110	Metaphysics 
+l4	111	Ontology 
+l4	113	Cosmology (Philosophy of nature)
+l4	114	Space 
+l4	115	Time 
+l4	116	Change 
+l4	117	Structure 
+l4	118	Force and energy
+l4	119	Number and quantity
+l3	120-129	Epistemology 	
+l4	120	Epistemology, causation, humankind
+l4	121	Epistemology (Theory of knowledge)
+l4	122	Causation 
+l4	123	Determinism and indeterminism
+l4	124	Teleology 
+l4	126	The self 
+l4	127	The unconscious and the subconscious
+l4	128	Humankind 
+l4	129	Origin and destiny of individual souls
+l3	130-139	Parapsychology & occultism 	
+l4	130	Parapsychology and occultism
+l4	131	Parapsychological and occult methods
+l4	133	Specific topics in parapsychology & occultism 
+l4	135	Dreams and mysteries
+l4	137	Divinatory graphology 
+l4	138	Physiognomy 
+l4	139	Phrenology 
+l3	140-149	Philosophical schools of thought 	
+l4	140	Specific philosophical schools 
+l4	141	Idealism and related systems
+l4	142	Critical philosophy 
+l4	143	Bergsonism and intuitionism
+l4	144	Humanism and related systems
+l4	145	Sensationalism 
+l4	146	Naturalism and related systems
+l4	147	Pantheism and related systems
+l4	148	Eclecticism, liberalism, & traditionalism
+l4	149	Other philosophical systems and doctrines
+l3	150-159	Psychology 	
+l4	150	Psychology 
+l4	152	Perception, movement, emotions & drives 
+l4	153	Conscious mental processes & intelligence
+l4	154	Subconscious & altered states 
+l4	155	Differential & developmental psychology 
+l4	156	Comparative psychology 
+l4	158	Applied psychology 
+l3	160-169	Philosophical logic	
+l4	160	Philosophical logic
+l4	161	Induction 
+l4	162	Deduction 
+l4	165	Fallacies and sources of error
+l4	166	Syllogisms 
+l4	167	Hypotheses 
+l4	168	Argument and persuasion
+l4	169	Analogy 
+l3	170-179	Ethics 	
+l4	170	Ethics (Moral philosophy)
+l4	171	Ethical systems 
+l4	172	Political ethics 
+l4	173	Ethics of family relationships 
+l4	174	Occupational ethics 
+l4	175	Ethics of recreation & leisure 
+l4	176	Ethics of sex & reproduction
+l4	177	Ethics of social relations 
+l4	178	Ethics of consumption 
+l4	179	Other ethical norms 
+l3	180-189	Ancient, medieval & eastern philosophy 	
+l4	180	Ancient, medieval & eastern philosophy
+l4	181	Eastern philosophy 
+l4	182	Pre-Socratic Greek philosophies 
+l4	183	Sophistic, Socratic, related philosophies
+l4	184	Platonic philosophy 
+l4	185	Aristotelian philosophy 
+l4	186	Skeptic and Neoplatonic philosophies
+l4	187	Epicurean philosophy 
+l4	188	Stoic philosophy 
+l4	189	Medieval western philosophy 
+l3	190-199	Modern western philosophy	
+l4	190	Modern western philosophy 
+l4	191	Philosophy of United States and Canada
+l4	192	Philosophy of British Isles 
+l4	193	Philosophy of Germany and Austria
+l4	194	Philosophy of France 
+l4	195	Philosophy of Italy 
+l4	196	Philosophy of Spain and Portugal
+l4	197	Philosophy of Russia
+l4	198	Philosophy of Scandinavia and Finland
+l4	199	Philosophy of other geographic areas
+l2	200-299	Religion 	
+l3	200-209	Religion 	
+l4	200	Religion 
+l4	201	Religious mythology & social theology 
+l4	202	Doctrines 
+l4	203	Public worship and other practices
+l4	204	Religious experience, life, practice
+l4	205	Religious ethics 
+l4	206	Leaders and organization
+l4	207	Missions and religious education
+l4	208	Sources 
+l4	209	Sects and reform movements
+l3	210-219	Philosophy & theory of religion 	
+l4	210	Philosophy and theory of religion
+l4	211	Concepts of God 
+l4	212	Existence, knowability & attributes of God 
+l4	213	Creation 
+l4	214	Theodicy 
+l4	215	Science and religion
+l4	218	Humankind 
+l3	220-229	The Bible 	
+l4	220	Bible 
+l4	221	Old Testament (Tanakh) 
+l4	222	Historical books of Old Testament 
+l4	223	Poetic books of Old Testament
+l4	224	Prophetic books of Old Testament 
+l4	225	New Testament 
+l4	226	Gospels and Acts
+l4	227	Epistles 
+l4	228	Revelation (Apocalypse) 
+l4	229	Apocrypha and pseudepigrapha
+l3	230-239	Christianity 	
+l4	230	Christianity
+l4	231	God 
+l4	232	Jesus Christ and his family
+l4	233	Humankind 
+l4	234	Salvation and grace
+l4	235	Spiritual beings 
+l4	236	Eschatology 
+l4	238	Creeds & catechisms 
+l4	239	Apologetics and polemics
+l3	240-249	Christian practice & observance 	
+l4	240	Christian moral and devotional theology
+l4	241	Christian ethics 
+l4	242	Devotional literature 
+l4	243	Evangelistic writings for individuals 
+l4	246	Use of art in Christianity 
+l4	247	Church furnishings and related articles
+l4	248	Christian experience, practice, life
+l4	249	Christian observances in family life
+l3	250-259	Christian pastoral practice & religious orders 	
+l4	250	Local Christian church and religious orders
+l4	251	Preaching (Homiletics)
+l4	252	Texts of sermons 
+l4	253	Pastoral work (Pastoral theology)
+l4	254	Local church administration
+l4	255	Religious congregations and orders
+l4	259	Pastoral care of families & groups of people
+l3	260-269	Christian organization, social work & worship 	
+l4	260	Christian social and ecclesiastical theology
+l4	261	Social theology and interreligious relations
+l4	262	Ecclesiology 
+l4	263	Days, times, places of religious observance
+l4	264	Public worship 
+l4	265	Sacraments, other rites and acts
+l4	266	Missions 
+l4	267	Associations for religious work 
+l4	268	Religious education 
+l4	269	Spiritual renewal 
+l3	270-279	History of Christianity 	
+l4	270	History, geographic treatment, biography
+l4	271	Religious orders in church history 
+l4	272	Persecutions in general church history
+l4	273	Doctrinal controversies & heresies
+l4	274	History of Christianity in Europe 
+l4	275	History of Christianity in Asia 
+l4	276	History of Christianity in Africa 
+l4	277	History of Christianity in North America 
+l4	278	History of Christianity in South America 
+l4	279	History of Christianity in other areas 
+l3	280-289	Christian denominations 	
+l4	280	Denominations & sects of Christian church
+l4	281	Early church and Eastern churches
+l4	282	Roman Catholic Church 
+l4	283	Anglican churches 
+l4	284	Protestants of Continental origin 
+l4	285	Presbyterian, Reformed & Congregational 
+l4	286	Baptist, Restoration & Adventist
+l4	287	Methodist and related churches
+l4	289	Other denominations and sects
+l3	290-299	Other religions	
+l4	290	Other religions 
+l4	292	Classical religion (Greek & Roman religion)
+l4	293	Germanic religion
+l4	294	Religions of Indic origin
+l4	295	Zoroastrianism (Mazdaism, Parseeism)
+l4	296	Judaism 
+l4	297	Islam, Babism & Bahai Faith 
+l4	299	Religions not provided for elsewhere
+l2	300-399	Social sciences	
+l3	300-309	Social sciences, sociology & anthropology 	
+l4	300	Social sciences 
+l4	301	Sociology and anthropology
+l4	302	Social interaction 
+l4	303	Social processes 
+l4	304	Factors affecting social behavior 
+l4	305	Groups of people
+l4	306	Culture and institutions
+l4	307	Communities
+l3	310-319	Statistics 	
+l4	310	Collections of general statistics
+l4	314	General statistics of Europe 
+l4	315	General statistics of Asia 
+l4	316	General statistics of Africa 
+l4	317	General statistics of North America 
+l4	318	General statistics of South America 
+l4	319	General statistics of other areas
+l3	320-329	Political science 	
+l4	320	Political science (Politics and government)
+l4	321	Systems of governments and states
+l4	322	Relation of state to organized groups
+l4	323	Civil and political rights
+l4	324	The political process 
+l4	325	International migration and colonization
+l4	326	Slavery and emancipation
+l4	327	International relations 
+l4	328	The legislative process 
+l3	330-339	Economics 	
+l4	330	Economics 
+l4	331	Labor economics 
+l4	332	Financial economics 
+l4	333	Economics of land and energy
+l4	334	Cooperatives 
+l4	335	Socialism and related systems
+l4	336	Public finance 
+l4	337	International economics 
+l4	338	Production
+l4	339	Macroeconomics and related topics
+l3	340-349	Law 	
+l4	340	Law 
+l4	341	Law of nations 
+l4	342	Constitutional and administrative law
+l4	343	Military, tax, trade & industrial law
+l4	344	Labor, social, education & cultural law 
+l4	345	Criminal law 
+l4	346	Private law 
+l4	347	Procedure and courts
+l4	348	Laws, regulations, cases
+l4	349	Law of specific jurisdictions & areas
+l3	350-359	Public administration & military science 	
+l4	350	Public administration and military science
+l4	351	Public administration 
+l4	352	General considerations of public administration 
+l4	353	Specific fields of public administration 
+l4	354	Administration of economy & environment 
+l4	355	Military science 
+l4	356	Foot forces & warfare
+l4	357	Mounted forces & warfare 
+l4	358	Air & other specialized forces 
+l4	359	Naval forces and warfare
+l3	360-369	Social problems & social services 	
+l4	360	Social problems and services; associations
+l4	361	Social problems and services
+l4	362	Social problems and services to groups
+l4	363	Other social problems and services
+l4	364	Criminology 
+l4	365	Penal and related institutions
+l4	366	Secret associations and societies
+l4	367	General clubs 
+l4	368	Insurance 
+l4	369	Associations 
+l3	370-379	Education 	
+l4	370	Education 
+l4	371	Schools and their activities; special education
+l4	372	Primary education (Elementary education)
+l4	373	Secondary education 
+l4	374	Adult education 
+l4	375	Curricula 
+l4	378	Higher education (Tertiary education)
+l4	379	Public policy issues in education 
+l3	380-389	Commerce, communications & transportation 	
+l4	380	Commerce, communications, transportation
+l4	381	Commerce (Trade)
+l4	382	International commerce (Foreign trade)
+l4	383	Postal communication
+l4	384	Communications
+l4	385	Railroad transportation 
+l4	386	Inland waterway and ferry transportation
+l4	387	Water, air, space transportation
+l4	388	Transportation
+l4	389	Metrology and standardization
+l3	390-399	Customs, etiquette & folklore	
+l4	390	Customs, etiquette, folklore
+l4	391	Costume and personal appearance
+l4	392	Customs of life cycle and domestic life
+l4	393	Death customs 
+l4	394	General customs 
+l4	395	Etiquette (Manners) 
+l4	398	Folklore 
+l4	399	Customs of war and diplomacy
+l2	400-499	Language	
+l3	400-409	Language 	
+l4	400	Language 
+l4	401	Philosophy and theory; international languages
+l4	402	Miscellany 
+l4	403	Dictionaries & encyclopedias
+l4	404	Special topics of language
+l4	405	Serial publications 
+l4	406	Organizations and management
+l4	407	Education, research, related topics
+l4	408	Groups of people 
+l4	409	Geographic treatment and biography
+l3	410-419	Linguistics 	
+l4	410	Linguistics 
+l4	411	Writing systems
+l4	412	Etymology
+l4	413	Dictionaries
+l4	414	Phonology & phonetics
+l4	415	Grammar
+l4	417	Dialectology and historical linguistics
+l4	418	Applied linguistics
+l4	419	Sign languages 
+l3	420-429	English & Old English languages 	
+l4	420	English & Old English (Anglo-Saxon)
+l4	421	Writing system, phonology, phonetics
+l4	422	Etymology of standard English
+l4	423	Dictionaries of standard English
+l4	425	Grammar of standard English
+l4	427	English language variations
+l4	428	Standard English usage
+l4	429	Old English (Anglo-Saxon) 
+l3	430-439	German & related languages 	
+l4	430	German and related languages
+l4	431	Writing system, phonology, phonetics
+l4	432	Etymology of standard German
+l4	433	Dictionaries of standard German
+l4	435	Grammar of standard German
+l4	437	German language variations
+l4	438	Standard German usage 
+l4	439	Other Germanic languages
+l3	440-449	French & related languages 	
+l4	440	French & related Romance languages
+l4	441	Writing system, phonology, phonetics
+l4	442	Etymology of standard French
+l4	443	Dictionaries of standard French
+l4	445	Grammar of standard French
+l4	447	French language variations
+l4	448	Standard French usage 
+l4	449	Occitan, Catalan, Franco-Provençal
+l3	450-459	Italian, Romanian & related languages 	
+l4	450	Italian, Romanian & related languages 
+l4	451	Writing system, phonology, phonetics
+l4	452	Etymology of standard Italian
+l4	453	Dictionaries of standard Italian
+l4	455	Grammar of standard Italian
+l4	457	Italian language variations
+l4	458	Standard Italian usage
+l4	459	Romanian, Rhaetian, Sardinian, Corsican
+l3	460-469	Spanish, Portuguese, Galician	
+l4	460	Spanish, Portuguese, Galician
+l4	461	Writing system, phonology, phonetics
+l4	462	Etymology of standard Spanish
+l4	463	Dictionaries of standard Spanish
+l4	465	Grammar of standard Spanish
+l4	467	Spanish language variations
+l4	468	Standard Spanish usage 
+l4	469	Portuguese
+l3	470-479	Latin & Italic languages 	
+l4	470	Latin and related Italic languages
+l4	471	Writing system, phonology, phonetics
+l4	472	Etymology of classical Latin
+l4	473	Dictionaries of classical Latin
+l4	475	Grammar of classical Latin
+l4	477	Old, postclassical, Vulgar Latin
+l4	478	Classical Latin usage
+l4	479	Other Italic languages 
+l3	480-489	Classical & modern Greek languages 	
+l4	480	Classical Greek; Hellenic languages
+l4	481	Writing system, phonology, phonetics
+l4	482	Etymology of classical Greek
+l4	483	Dictionaries of classical Greek
+l4	485	Grammar of classical Greek
+l4	487	Preclassical and postclassical Greek
+l4	488	Classical Greek usage
+l4	489	Other Hellenic languages 
+l3	490-489	Other languages	
+l4	490	Other languages 
+l4	491	East Indo-European and Celtic languages
+l4	492	Afro-Asiatic languages
+l4	493	Non-Semitic Afro-Asiatic languages 
+l4	494	Altaic, Uralic, Hyperborean & Dravidian 
+l4	495	Languages of east and southeast Asia
+l4	496	African languages 
+l4	497	North American native languages 
+l4	498	South American native languages 
+l4	499	Austronesian & other languages 
+l2	500-599	Science	
+l3	500-509	Science 	
+l4	500	Natural sciences and mathematics
+l4	501	Philosophy and theory
+l4	502	Miscellany 
+l4	503	Dictionaries & encyclopedias 
+l4	505	Serial publications 
+l4	506	Organizations and management
+l4	507	Education, research, related topics
+l4	508	Natural history 
+l4	509	History, geographic treatment, biography 
+l3	510-519	Mathematics 	
+l4	510	Mathematics 
+l4	511	General principles of mathematics 
+l4	512	Algebra 
+l4	513	Arithmetic 
+l4	514	Topology 
+l4	515	Analysis 
+l4	516	Geometry 
+l4	518	Numerical analysis 
+l4	519	Probabilities and applied mathematics
+l3	520-529	Astronomy 	
+l4	520	Astronomy and allied sciences
+l4	521	Celestial mechanics 
+l4	522	Techniques, equipment & materials 
+l4	523	Specific celestial bodies and phenomena
+l4	525	Earth (Astronomical geography) 
+l4	526	Mathematical geography 
+l4	527	Celestial navigation 
+l4	528	Ephemerides 
+l4	529	Chronology 
+l3	530-539	Physics 	
+l4	530	Physics 
+l4	531	Classical mechanics
+l4	532	Fluid mechanics
+l4	533	Pneumatics (Gas mechanics)
+l4	534	Sound and related vibrations
+l4	535	Light and related radiation
+l4	536	Heat 
+l4	537	Electricity and electronics
+l4	538	Magnetism 
+l4	539	Modern physics 
+l3	540-549	Chemistry 	
+l4	540	Chemistry and allied sciences
+l4	541	Physical chemistry 
+l4	542	Techniques, equipment & materials 
+l4	543	Analytical chemistry 
+l4	546	Inorganic chemistry 
+l4	547	Organic chemistry 
+l4	548	Crystallography 
+l4	549	Mineralogy 
+l3	550-559	Earth sciences & geology 	
+l4	550	Earth sciences 
+l4	551	Geology, hydrology, meteorology
+l4	552	Petrology 
+l4	553	Economic geology 
+l4	554	Earth sciences of Europe 
+l4	555	Earth sciences of Asia 
+l4	556	Earth sciences of Africa 
+l4	557	Earth sciences of North America 
+l4	558	Earth sciences of South America 
+l4	559	Earth sciences of other areas
+l3	560-569	Fossils & prehistoric life 	
+l4	560	Paleontology
+l4	561	Paleobotany; fossil microorganisms 
+l4	562	Fossil invertebrates 
+l4	563	Fossil marine & seashore invertebrates 
+l4	564	Fossil Mollusca & Molluscoidea
+l4	565	Fossil Arthropoda
+l4	566	Fossil Chordata
+l4	567	Fossil cold-blooded vertebrates
+l4	568	Fossil Aves (birds)
+l4	569	Fossil Mammalia
+l3	570-579	Biology	
+l4	570	Biology
+l4	571	Physiology & related subjects
+l4	572	Biochemistry 
+l4	573	Specific physiological systems in animals 
+l4	575	Specific parts of & systems in plants 
+l4	576	Genetics and evolution
+l4	577	Ecology 
+l4	578	Natural history of organisms 
+l4	579	Microorganisms, fungi & algae 
+l3	580-589	Plants (Botany) 	
+l4	580	Plants
+l4	581	Specific topics in natural history of plants
+l4	582	Plants noted for characteristics & flowers
+l4	583	Eudicots and Ceratophyllales
+l4	584	Monocots, Chloranthales, magnoliids
+l4	585	Pinophyta
+l4	586	Cryptogamia
+l4	587	Pteridophyta
+l4	588	Bryophyta
+l3	590-599	Animals (Zoology) 	
+l4	590	Animals
+l4	591	Specific topics in natural history of animals
+l4	592	Invertebrates 
+l4	593	Marine & seashore invertebrates 
+l4	594	Mollusca and Molluscoidea
+l4	595	Arthropoda
+l4	596	Chordata
+l4	597	Cold-blooded vertebrates
+l4	598	Aves
+l4	599	Mammalia
+l2	600-699	Technology	
+l3	600-609	Technology 	
+l4	600	Technology (Applied sciences)
+l4	601	Philosophy and theory
+l4	602	Miscellany
+l4	603	Dictionaries, encyclopedias, concordances
+l4	604	Technical drawing, hazardous materials
+l4	605	Serial publications
+l4	606	Organizations
+l4	607	Education, research, related topics
+l4	608	Patents
+l4	609	History, geographic treatment, biography 
+l3	610-619	Medicine & health 	
+l4	610	Medicine and health
+l4	611	Human anatomy, cytology, histology
+l4	612	Human physiology 
+l4	613	Personal health & safety 
+l4	614	Forensic medicine; incidence of disease
+l4	615	Pharmacology and therapeutics
+l4	616	Diseases 
+l4	617	Surgery & related medical specialties 
+l4	618	Gynecology, obstetrics, pediatrics, geriatrics
+l3	620-629	Engineering 	
+l4	620	Engineering and allied operations
+l4	621	Applied physics 
+l4	622	Mining and related operations
+l4	623	Military and nautical engineering
+l4	624	Civil engineering 
+l4	625	Engineering of railroads and roads
+l4	627	Hydraulic engineering 
+l4	628	Sanitary engineering 
+l4	629	Other branches of engineering 
+l3	630-639	Agriculture 	
+l4	630	Agriculture and related technologies
+l4	631	Techniques, equipment & materials 
+l4	632	Plant injuries, diseases, pests
+l4	633	Field and plantation crops
+l4	634	Orchards, fruits, forestry
+l4	635	Garden crops (Horticulture) 
+l4	636	Animal husbandry 
+l4	637	Processing dairy and related products
+l4	638	Insect culture 
+l4	639	Hunting, fishing & conservation 
+l3	640-649	Home & family management 	
+l4	640	Home and family management
+l4	641	Food and drink
+l4	642	Meals and table service
+l4	643	Housing and household equipment
+l4	644	Household utilities 
+l4	645	Household furnishings 
+l4	646	Sewing, clothing & personal living 
+l4	647	Management of public households 
+l4	648	Housekeeping 
+l4	649	Child rearing & home care of people 
+l3	650-659	Management & public relations	
+l4	650	Management and auxiliary services
+l4	651	Office services 
+l4	652	Processes of written communication 
+l4	653	Shorthand 
+l4	657	Accounting 
+l4	658	General management 
+l4	659	Advertising and public relations
+l3	660-669	Chemical engineering 	
+l4	660	Chemical engineering
+l4	661	Technology of industrial chemicals
+l4	662	Explosives, fuels & related products 
+l4	663	Beverage technology 
+l4	664	Food technology 
+l4	665	Industrial oils, fats, waxes & gases 
+l4	666	Ceramic & allied technologies 
+l4	667	Cleaning, color & coating technologies 
+l4	668	Technology of other organic products 
+l4	669	Metallurgy 
+l3	670-679	Manufacturing 	
+l4	670	Manufacturing 
+l4	671	Metalworking & primary metal products 
+l4	672	Iron, steel, other iron alloys
+l4	673	Nonferrous metals 
+l4	674	Lumber processing, wood products, cork
+l4	675	Leather and fur processing
+l4	676	Pulp and paper technology
+l4	677	Textiles 
+l4	678	Elastomers and elastomer products
+l4	679	Other products of specific materials 
+l3	680-689	Manufacture for specific uses	
+l4	680	Manufacture of products for specific uses
+l4	681	Precision instruments and other devices
+l4	682	Small forge work (Blacksmithing) 
+l4	683	Hardware & household appliances 
+l4	684	Furnishings and home workshops
+l4	685	Leather, fur goods & related products 
+l4	686	Printing and related activities
+l4	687	Clothing and accessories
+l4	688	Other final products & packaging 
+l3	690-699	Construction of buildings	
+l4	690	Construction of buildings
+l4	691	Building materials 
+l4	692	Auxiliary construction practices 
+l4	693	Specific materials & purposes 
+l4	694	Wood construction
+l4	695	Roof covering 
+l4	696	Utilities 
+l4	697	Heating, ventilating & air-conditioning 
+l4	698	Detail finishing 
+l2	700-799	Arts & recreation	
+l3	700-709	Arts	
+l4	700	The arts
+l4	701	Philosophy of fine & decorative arts
+l4	702	Miscellany of fine and decorative arts
+l4	703	Dictionaries of fine & decorative arts
+l4	704	Special topics in fine and decorative arts
+l4	705	Serial publications of fine & decorative arts 
+l4	706	Organizations & management 
+l4	707	Education, research & related topics
+l4	708	Galleries, museums & private collections
+l4	709	History, geographic treatment, biography 
+l3	710-719	Area planning & landscape architecture	
+l4	710	Area planning and landscape architecture Area 
+l4	711	Planning (Civic art)
+l4	712	Landscape architecture (Landscape design)
+l4	713	Landscape architecture of trafficways
+l4	714	Water features in landscape architecture
+l4	715	Woody plants in landscape architecture
+l4	716	Herbaceous plants in landscape architecture
+l4	717	Structures in landscape architecture
+l4	718	Landscape design of cemeteries 
+l4	719	Natural landscapes 
+l3	720-729	Architecture 	
+l4	720	Architecture 
+l4	721	Architectural materials and structure
+l4	722	Architecture from earliest times to ca. 300
+l4	723	Architecture from ca. 300 to 1399
+l4	724	Architecture from 1400 
+l4	725	Public structures 
+l4	726	Buildings for religious and related purposes
+l4	727	Buildings for education & research
+l4	728	Residential and related buildings
+l4	729	Design & decoration 
+l3	730-739	Sculpture, ceramics & metalwork 	
+l4	730	Sculpture and related arts
+l4	731	Processes, forms, subjects of sculpture
+l4	732	Sculpture to ca. 500 
+l4	733	Greek, Etruscan, Roman sculpture
+l4	734	Sculpture from ca. 500 to 1399 
+l4	735	Sculpture from 1400 
+l4	736	Carving and carvings
+l4	737	Numismatics and sigillography
+l4	738	Ceramic arts 
+l4	739	Art metalwork 
+l3	740-749	Design & related arts	
+l4	740	Design and related arts
+l4	741	Drawing and drawings
+l4	742	Perspective in drawing
+l4	743	Drawing and drawings by subject
+l4	744	Communication design, visual design, graphic design
+l4	745	Decorative arts 
+l4	746	Textile arts 
+l4	747	Interior decoration 
+l4	748	Glass 
+l4	749	Furniture and accessories
+l3	750-759	Painting 	
+l4	750	Painting and paintings
+l4	751	Techniques, equipment, materials & forms 
+l4	752	Color 
+l4	753	Symbolism, allegory, mythology, legend
+l4	754	Genre paintings 
+l4	755	Religion 
+l4	757	Human figures 
+l4	758	Nature, cityscapes & other subjects
+l4	759	History, geographic treatment, biography 
+l3	760-769	Printmaking & prints	
+l4	760	Printmaking & prints
+l4	761	Relief processes (Block printing) 
+l4	763	Lithographic processes
+l4	764	Chromolithography and serigraphy
+l4	765	Metal engraving 
+l4	766	Mezzotinting, aquatinting, related processes
+l4	767	Etching and drypoint
+l4	769	Prints 
+l3	770-779	Photography, computer art, film, video	
+l4	770	Photography, computer art, cinematography
+l4	771	Techniques, equipment & materials 
+l4	772	Metallic salt processes 
+l4	773	Pigment processes of printing 
+l4	774	Holography 
+l4	776	Computer art (Digital art) 
+l4	777	Cinematography and videography
+l4	778	Specific fields & kinds of photography
+l4	779	Photographic images
+l3	780-789	Music 	
+l4	780	Music 
+l4	781	General principles and musical forms
+l4	782	Vocal music 
+l4	783	Music for single voices
+l4	784	Instruments & instrumental ensembles 
+l4	785	Ensembles with one instrument per part 
+l4	786	Keyboard & other instruments 
+l4	787	Stringed instruments (Chordophones)
+l4	788	Wind instruments (Aerophones)
+l3	790-799	Sports, games & entertainment 	
+l4	790	Recreational and performing arts
+l4	791	Public performances 
+l4	792	Stage presentations 
+l4	793	Indoor games and amusements
+l4	794	Indoor games of skill 
+l4	795	Games of chance 
+l4	796	Athletic and outdoor sports and games
+l4	797	Aquatic and air sports
+l4	798	Equestrian sports and animal racing
+l4	799	Fishing, hunting, shooting
+l2	800-899	Literature	
+l3	800-809	Literature, rhetoric & criticism	
+l4	800	Literature (Belles-lettres) and rhetoric
+l4	801	Philosophy and theory
+l4	802	Miscellany
+l4	803	Dictionaries & encyclopedias 
+l4	805	Serial publications 
+l4	806	Organizations and management
+l4	807	Education, research, related topics
+l4	808	Rhetoric & collections of literature 
+l4	809	History, description & criticism 
+l3	810-819	American literature in English	
+l4	810	American literature in English 
+l4	811	American poetry in English
+l4	812	American drama in English
+l4	813	American fiction in English
+l4	814	American essays in English 
+l4	815	American speeches in English 
+l4	816	American letters in English 
+l4	817	American humor and satire in English
+l4	818	American miscellaneous writings 
+l4	819	American literatures in English not requiring local emphasis
+l3	820-829	English & Old English literatures	
+l4	820	English & Old English literatures 
+l4	821	English poetry 
+l4	822	English drama
+l4	823	English fiction
+l4	824	English essays
+l4	825	English speeches 
+l4	826	English letters 
+l4	827	English humor and satire
+l4	828	English miscellaneous writings
+l4	829	Old English (Anglo-Saxon) literature
+l3	830-839	German & related literatures 	
+l4	830	German & related literatures
+l4	831	German poetry 
+l4	832	German drama
+l4	833	German fiction
+l4	834	German essays
+l4	835	German speeches 
+l4	836	German letters 
+l4	837	German humor and satire
+l4	838	German miscellaneous writings 
+l4	839	Other Germanic literatures
+l3	840-849	French & related literatures 	
+l4	840	French and related literatures
+l4	841	French poetry 
+l4	842	French drama
+l4	843	French fiction
+l4	844	French essays
+l4	845	French speeches 
+l4	846	French letters 
+l4	847	French humor and satire
+l4	848	French miscellaneous writings
+l4	849	Occitan & Catalan literatures
+l3	850-859	Italian, Romanian & related literatures 	
+l4	850	Italian, Romanian & related literatures
+l4	851	Italian poetry
+l4	852	Italian drama
+l4	853	Italian fiction
+l4	854	Italian essays
+l4	855	Italian speeches 
+l4	856	Italian letters 
+l4	857	Italian humor and satire
+l4	858	Italian miscellaneous writings 
+l4	859	Romanian & related literatures 
+l3	860-869	Spanish, Portuguese, Galician literatures	
+l4	860	Spanish & Portuguese literatures 
+l4	861	Spanish poetry
+l4	862	Spanish drama
+l4	863	Spanish fiction
+l4	864	Spanish essays
+l4	865	Spanish speeches 
+l4	866	Spanish letters 
+l4	867	Spanish humor and satire
+l4	868	Spanish miscellaneous writings 
+l4	869	Portuguese and Galician literatures
+l3	870-879	Latin & Italic literatures 	
+l4	870	Latin & related Italic literatures
+l4	871	Latin poetry 
+l4	872	Latin dramatic poetry and drama
+l4	873	Latin epic poetry and fiction
+l4	874	Latin lyric poetry
+l4	875	Latin speeches 
+l4	876	Latin letters 
+l4	877	Latin humor and satire
+l4	878	Latin miscellaneous writings 
+l4	879	Literatures of other Italic languages 
+l3	880-889	Classical & modern Greek literatures 	
+l4	880	Classical Greek & Hellenic literatures
+l4	881	Classical Greek poetry 
+l4	882	Classical Greek dramatic poetry & drama 
+l4	883	Classical Greek epic poetry and fiction
+l4	884	Classical Greek lyric poetry 
+l4	885	Classical Greek speeches 
+l4	886	Classical Greek letters 
+l4	887	Classical Greek humor and satire
+l4	888	Classical Greek miscellaneous writings 
+l4	889	Modern Greek literature 
+l3	890-899	Other literatures	
+l4	890	Literatures of other languages 
+l4	891	East Indo-European and Celtic literatures
+l4	892	Afro-Asiatic literatures
+l4	893	Non-Semitic Afro-Asiatic literatures 
+l4	894	Altaic, Uralic, Hyperborean & Dravidian 
+l4	895	Literatures of East and Southeast Asia
+l4	896	African literatures 
+l4	897	North American native literatures 
+l4	898	South American native literatures 
+l4	899	Austronesian & other literatures
+l2	900-999	History & geography	
+l3	900-909	History 	
+l4	900	History & geography 
+l4	901	Philosophy and theory of history
+l4	902	Miscellany of history
+l4	903	Dictionaries & encyclopedias
+l4	904	Collected accounts of events 
+l4	905	Serial publications of history
+l4	906	Organizations & management
+l4	907	Education, research & related topics 
+l4	908	Groups of people
+l4	909	World history 
+l3	910-919	Geography & travel 	
+l4	910	Geography and travel
+l4	911	Historical geography 
+l4	912	Maps and plans of surface of earth
+l4	913	Geography of and travel in ancient world 
+l4	914	Geography of and travel in Europe
+l4	915	Geography of and travel in Asia
+l4	916	Geography of and travel in Africa
+l4	917	Geography of & travel in North America 
+l4	918	Geography of & travel in South America 
+l4	919	Geography of and travel in other areas
+l3	920-929	Biography & genealogy 	
+l4	920	Biography, genealogy, insignia
+l4	921	Philosophers and psychologists
+l4	922	Religious leaders, thinkers, workers
+l4	923	People in social sciences
+l4	924	Philologists and lexicographers
+l4	925	Scientists
+l4	926	People in technology
+l4	927	People in the arts and recreation
+l4	928	People in literature, history, biography, genealogy
+l4	929	Genealogy, names & insignia 
+l3	930-939	History of ancient world (to ca. 499) 	
+l4	930	History of ancient world to ca. 499 
+l4	931	China to 420 
+l4	932	Egypt to 640 
+l4	933	Palestine to 70 
+l4	934	India to 647 
+l4	935	Mesopotamia & Iranian Plateau to 637 
+l4	936	Europe north & west of Italy to ca. 499 
+l4	937	Italy & adjacent territories to 476 
+l4	938	Greece to 323 
+l4	939	Other parts of ancient world
+l3	940-949	History of Europe 	
+l4	940	History of Europe 
+l4	941	British Isles 
+l4	942	England and Wales
+l4	943	Germany and central Europe
+l4	944	France and Monaco
+l4	945	Italy, San Marino, Vatican City, Malta
+l4	946	Spain, Andorra, Gibraltar, Portugal
+l4	947	Russia and east Europe
+l4	948	Scandinavia and Finland
+l4	949	Other parts of Europe
+l3	950-959	History of Asia 	
+l4	950	History of Asia
+l4	951	China and adjacent areas
+l4	952	Japan 
+l4	953	Arabian Peninsula and adjacent areas
+l4	954	India & south Asia
+l4	955	Iran 
+l4	956	Middle East (Near East) 
+l4	957	Siberia (Asiatic Russia) 
+l4	958	Central Asia 
+l4	959	Southeast Asia 
+l3	960-969	History of Africa 	
+l4	960	History of Africa 
+l4	961	Tunisia and Libya
+l4	962	Egypt, Sudan, South Sudan
+l4	963	Ethiopia and Eritrea
+l4	964	Morocco, Ceuta, Melilla, Western Sahara
+l4	965	Algeria 
+l4	966	West Africa and offshore islands
+l4	967	Central Africa and offshore islands
+l4	968	South Africa & southern Africa
+l4	969	South Indian Ocean islands 
+l3	970-979	History of North America 	
+l4	970	History of North America 
+l4	971	Canada 
+l4	972	Mexico, Central America, West Indies
+l4	973	United States 
+l4	974	Northeastern United States 
+l4	975	Southeastern United States 
+l4	976	South central United States 
+l4	977	North central United States 
+l4	978	Western United States 
+l4	979	Great Basin & Pacific Slope region 
+l3	980-989	History of South America	
+l4	980	History of South America 
+l4	981	Brazil 
+l4	982	Argentina 
+l4	983	Chile 
+l4	984	Bolivia 
+l4	985	Peru 
+l4	986	Colombia and Ecuador
+l4	987	Venezuela 
+l4	988	Guiana 
+l4	989	Paraguay and Uruguay
+l3	990-999	History of other areas 	
+l4	990	History of other areas 
+l4	993	New Zealand
+l4	994	Australia 
+l4	995	New Guinea & Melanesia
+l4	996	Polynesia & Pacific Ocean islands
+l4	997	Atlantic Ocean islands 
+l4	998	Arctic islands and Antarctica
+l4	999	Extraterrestrial worlds

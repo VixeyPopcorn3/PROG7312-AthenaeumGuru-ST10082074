@@ -61,16 +61,16 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
         //Clears all Book Labels 
         private void ClearLabels()
         {
-            Book1Label.Content = "";
-            Book2Label.Content = "";
-            Book3Label.Content = "";
-            Book4Label.Content = "";
-            Book5Label.Content = "";
-            Book6Label.Content = "";
-            Book7Label.Content = "";
-            Book8Label.Content = "";
-            Book9Label.Content = "";
-            Book10Label.Content = "";
+            Book1Label.Content = null;
+            Book2Label.Content = null;
+            Book3Label.Content = null;
+            Book4Label.Content = null;
+            Book5Label.Content = null;
+            Book6Label.Content = null;
+            Book7Label.Content = null;
+            Book8Label.Content = null;
+            Book9Label.Content = null;
+            Book10Label.Content = null;
 
             Scorelbl.Content = "Score: ";
         }
