@@ -29,7 +29,7 @@
                 <ImageBrush ImageSource="/Resources/OpenBookImage.png"/>
             </Canvas.Background>
             <Canvas Height="420" Width="300" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="150" Canvas.Top="70">
-                <Label x:Name="ThirdLevellbl" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Papyrus" FontWeight="Bold" FontSize="16" Canvas.Left="21" Canvas.Top="33"/>
+                <Label x:Name="FourthLevellbl" Content="Label" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Papyrus" FontWeight="Bold" FontSize="16" Canvas.Left="21" Canvas.Top="13" Height="59"/>
 
             </Canvas>
             <Canvas Height="420" Width="325" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="550" Canvas.Top="70">

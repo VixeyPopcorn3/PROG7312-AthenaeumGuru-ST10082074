@@ -26,13 +26,14 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
         private readonly Tree _deweyTree;
         private readonly FindingCallNumbers _logic;
         private List<TreeNode> _randomSecondLevelNodes;
-        private TreeNode _randomThirdLevelNode;
+        private TreeNode _randomFourthLevelNode;
         private StartPage sP;
 
         private int selectedBook = -1; // Store the currently selected book
-        private string b1, b2, b3, b4, t, temp;
+        private string b1, b2, b3, b4, t, temp, temp2, b1l3, b2l3,b3l3,b4l3;
 
         private int score = 0;
+        private int tempLevel =0;
 
         public FindingCallNumbersScreen()
         {
@@ -50,11 +51,28 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
 
         private void PopulateRandomNodes()
         {
+            /*// Get 4 random second-level nodes
+            List<TreeNode> randomSecondLevelNodes = _logic.GetRandomSecondLevelNodes(4);
+
+            // Get random Fourth-level node from one of the second-level nodes
+            _randomFourthLevelNode = _logic.GetRandomFourthLevelNode(randomSecondLevelNodes);
+
+            // Get 4 random Third-level nodes under the same second-level node
+            //List<TreeNode> randomThirdLevelNodes = _logic.GetRandomThirdLevelNodes(randomSecondLevelNodes, 4);
+            //List<TreeNode> randomThirdLevelNodes = _logic.GetRandomThirdLevelNodes(_randomFourthLevelNode.Parent, 4);
+            List<TreeNode> randomThirdLevelNodes = _logic.GetRandomThirdLevelNodes(_randomFourthLevelNode, 4);*/
+
+
             // Get 4 random second-level nodes
             List<TreeNode> randomSecondLevelNodes = _logic.GetRandomSecondLevelNodes(4);
 
-            // Get random third-level node from one of the second-level nodes
-            _randomThirdLevelNode = _logic.GetRandomThirdLevelNode(randomSecondLevelNodes);
+            // Get 4 random third-level nodes under one of the randomly chosen second-level nodes
+            List<TreeNode> randomThirdLevelNodes = _logic.GetRandomThirdLevelNodes(randomSecondLevelNodes[0], 4);
+
+            // Get 1 random fourth-level node from the randomly chosen third-level nodes
+            _randomFourthLevelNode = _logic.GetRandomFourthLevelNode(randomThirdLevelNodes);
+
+
 
             // Display random nodes on buttons and label
             Opt1btn.Content = $"{randomSecondLevelNodes[0].CallNumber}\n{randomSecondLevelNodes[0].Description}";
@@ -69,29 +87,40 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             Opt4btn.Content = $"{randomSecondLevelNodes[3].CallNumber}\n{randomSecondLevelNodes[3].Description}";
             b4 = $"{randomSecondLevelNodes[3].CallNumber}\t{randomSecondLevelNodes[3].Description}";
 
-            ThirdLevellbl.Content = $"{_randomThirdLevelNode.Description}";
-            t = _randomThirdLevelNode.CallNumber;
+            t = _randomFourthLevelNode.CallNumber;
+            FourthLevellbl.Content = $"{_randomFourthLevelNode.Description}";
+
+            b1l3 = $"{randomThirdLevelNodes[0].CallNumber}\t{randomThirdLevelNodes[0].Description}";
+            b2l3 = $"{randomThirdLevelNodes[1].CallNumber}\t{randomThirdLevelNodes[1].Description}";
+            b3l3 = $"{randomThirdLevelNodes[2].CallNumber}\t{randomThirdLevelNodes[2].Description}";
+            b4l3 = $"{randomThirdLevelNodes[3].CallNumber}\t{randomThirdLevelNodes[3].Description}";
+
+            
         }
 
         private void Opt1btn_Click(object sender, RoutedEventArgs e)
         {
             selectedBook = 0;
             temp = b1;
+            temp2 = b1l3;
         }
         private void Opt2btn_Click(object sender, RoutedEventArgs e)
         {
             selectedBook = 1;
             temp = b2;
+            temp2 = b2l3;
         }
         private void Opt3btn_Click(object sender, RoutedEventArgs e)
         {
             selectedBook = 2;
             temp = b3;
+            temp2 = b3l3;
         }
         private void Opt4btn_Click(object sender, RoutedEventArgs e)
         {
             selectedBook = 3;
             temp = b4;
+            temp2 = b4l3;
         }
 
         private void ReturnBtn_Click(object sender, RoutedEventArgs e)
@@ -114,21 +143,55 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             }
             else
             {
-                if (_logic.CheckUser(temp, t))//Answer Correct
+                if (tempLevel == 0)//first round
                 {
-                    score++;
-                    MessageBox.Show($"Well Done:\n\nYou selected the Correct Answer.\n{t} {_randomThirdLevelNode.Description} \nfalls under \n{temp}", "Yay");
-                    Scorelbl.Content = "Score: " + score;
-                    PopulateRandomNodes();
+                    if (_logic.CheckUser(temp[0], t[0]))//Answer Correct
+                    {
+                        score++;
+                        selectedBook = -1;
+                        Scorelbl.Content = "Score: " + score;
+                        MessageBox.Show($"Well Done:\n\nYou selected the Correct Answer.\n{_randomFourthLevelNode.Description} \nfalls under \n{temp}", "Yay");
+                        tempLevel = 1;
+                        temp = null;
+                        NextLevel();
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Incorrect Answer:\n\nYou have sadly selected the wrong answer.\n{t} {_randomFourthLevelNode.Description}\ndoes not falls under \n{temp}", "Incorrect");
+                        PopulateRandomNodes();
+                    }
                 }
-                else
+                else if(tempLevel == 1)//second round
                 {
-                    MessageBox.Show($"Incorrect Answer:\n\nYou have sadly selected the wrong answer.\n{t} {_randomThirdLevelNode.Description}\ndoes not falls under \n{temp}", "Incorrect");
-                    
-                    PopulateRandomNodes();
+                    if (_logic.CheckUser(temp2[1], t[1]))//Answer Correct
+                    {
+                        score++;
+                        selectedBook = -1;
+                        Scorelbl.Content = "Score: " + score;
+                        MessageBox.Show($"Well Done:\n\nYou selected the Correct Answer.\n{t} {_randomFourthLevelNode.Description} \nfalls under \n{temp2}", "Yay");
+                        tempLevel = 0;
+                        PopulateRandomNodes();
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Incorrect Answer:\n\nYou have sadly selected the wrong answer.\n{t} {_randomFourthLevelNode.Description}\ndoes not falls under \n{temp2}", "Incorrect");
+
+                        PopulateRandomNodes();
+                    }
                 }
+                
 
             }
+        }
+        private void NextLevel() 
+        {
+            Opt1btn.Content = b1l3;
+
+            Opt2btn.Content = b2l3;
+
+            Opt3btn.Content = b3l3;
+
+            Opt4btn.Content = b4l3;
         }
         private void HelpBtn_Click(object sender, EventArgs e)
         {
