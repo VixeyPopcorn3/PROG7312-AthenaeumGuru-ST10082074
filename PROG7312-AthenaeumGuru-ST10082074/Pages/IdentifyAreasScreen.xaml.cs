@@ -36,6 +36,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
         private int Score, CumulativeScore, Counter; 
         private bool checkButtonClicked = false;
         private List<ListBoxItem> selectedItems = new List<ListBoxItem>();
+        private bool music = true;
 
 
         public IdentifyAreasScreen()
@@ -46,6 +47,24 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             identifyingAreas = new IdentifyingAreas();
             PopulateLeftBoxWithItems(LeftBox);
             PopulateRightBoxWithRandomItems(RightBox);
+
+            // To play the music
+            backgroundMusic.Play();
+        }
+        private void Musicbtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (music)
+            {
+                // To pause the music
+                backgroundMusic.Stop();
+                music = false;
+            }
+            else
+            {
+                // To play the music
+                backgroundMusic.Play();
+                music = true;
+            }
         }
 
         /*
@@ -363,6 +382,11 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             }
 
             return false;
+        }
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            // Stop the background music when the window is closed
+            backgroundMusic.Stop();
         }
     }
 }

@@ -12,12 +12,12 @@
             <ImageBrush ImageSource="/Resources/DeskTopView.jpg"/>
         </StackPanel.Background>
         <Canvas Height="120">
-            <Button x:Name="HelpBtn" Click="HelpBtn_Click" Content="" Canvas.Right="120" Canvas.Top="3" FontSize="48" Width="118" BorderBrush="{x:Null}" FontFamily="Engravers MT" Height="121" Foreground="Black" Canvas.Left="995">
+            <Button x:Name="HelpBtn" Click="HelpBtn_Click" Style="{StaticResource HelpButtonStyle}" Content="" Canvas.Right="120" Canvas.Top="3" FontSize="48" Width="118" BorderBrush="{x:Null}" FontFamily="Engravers MT" Height="121" Foreground="Black" Canvas.Left="995">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/HelpButtonIcon.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="ReturnBtn" Content="" Canvas.Left="80" Canvas.Top="21" BorderBrush="{x:Null}" Height="80" Width="85" Click="ReturnBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Top" >
+            <Button x:Name="ReturnBtn" Style="{StaticResource BackButtonStyle}" Content="" Canvas.Left="80" Canvas.Top="21" BorderBrush="{x:Null}" Height="80" Width="85" Click="ReturnBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Top" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/LeftBtn.png" Stretch="Uniform"/>
                 </Button.Background>
@@ -68,6 +68,7 @@
                     <ImageBrush ImageSource="/Resources/Button.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
+            <Button x:Name="Musicbtn" Content="" Style="{StaticResource MusicButtonStyle}" HorizontalAlignment="Left" Margin="1096,0,0,0" VerticalAlignment="Center" Click="Musicbtn_Click" Height="90" Width="86"/>
         </Grid>
         <MediaElement x:Name="backgroundMusic" Source="C:\Users\zanne\source\repos\PROG7312-AthenaeumGuru-ST10082074\PROG7312-AthenaeumGuru-ST10082074\Resources\Gibran Alcocer - Idea 15.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop" Volume="0.5" />
     </StackPanel>

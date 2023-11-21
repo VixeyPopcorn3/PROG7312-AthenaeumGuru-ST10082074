@@ -33,11 +33,33 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
         private int Score, HighScore;
         private bool Check = false;
 
+        private bool music = true;
+
         public ReOrderBooks()
         {
             InitializeComponent();
+
             UpdateBookNums();
+
+            // To play the music
+            backgroundMusic.Play();
         }
+        private void Musicbtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (music)
+            {
+                // To pause the music
+                backgroundMusic.Stop();
+                music = false;
+            }
+            else
+            {
+                // To play the music
+                backgroundMusic.Play();
+                music = true;
+            }
+        }
+
         //Updates all Books call numbers
         private void UpdateBookNums()
         {
@@ -377,6 +399,7 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             }
         }
 
+        // checks users answer and informs them if they correct or incorrect
         private void CheckBtn_Click(object sender, RoutedEventArgs e)
         {
             Scorelbl.Content = "Score: ";
@@ -421,9 +444,17 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
                 }
             }
             Scorelbl.Content = Scorelbl.Content + Score.ToString() + "/10";
-            CheckHighScore();
+            HighScorelbl.Content = calNumGen.CheckHighScore(HighScore,Score);
         }
 
+        private void HelpBtn_Click(object sender, RoutedEventArgs e)
+        {
+            // Show a pop-up window with your help message
+            MessageBox.Show("How to Play:\n\nYou will be presented with a set of ten books, each labeled with a library call number. The books are initially placed in a random order.\r\n\r\nClick on a book to select it. The selected book will be highlighted.\r\n\r\nTo move a book to the left, click the \"Left\" button.\r\n\r\nTo move a book to the right, click the \"Right\" button.\r\n\r\nOrganize the books in ascending order according to their call numbers.\r\n\r\nOnce you have rearranged the books, click the \"Check\" button to verify your order.\r\n\r\nThe game will highlight correct placements in green and incorrect placements in red. Your score will be displayed.\r\n\r\nHappy sorting!", "Help");
+
+        }
+
+        //Clears all highlights of  books
         private void ClearHighlights()
         {
             Book1.BorderBrush = new SolidColorBrush(Colors.Black);
@@ -456,14 +487,10 @@ namespace PROG7312_AthenaeumGuru_ST10082074.Pages
             Book10.BorderBrush = new SolidColorBrush(Colors.Black);
             Book10.BorderThickness = new Thickness(1);
         }
-
-        private void CheckHighScore()
+        private void Window_Closed(object sender, EventArgs e)
         {
-            if (HighScore < Score)
-            {
-                HighScore = Score;
-                HighScorelbl.Content = "Your HighScore: " + HighScore.ToString() + "/10";
-            }
+            // Stop the background music when the window is closed
+            backgroundMusic.Stop();
         }
     }
 }

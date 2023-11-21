@@ -12,18 +12,18 @@
             <ImageBrush ImageSource="/Resources/BackGround (2).jpg"/>
         </StackPanel.Background>
         <Canvas Height="170">
-            <Button x:Name="HelpBtn" Content="H" Canvas.Right="120" Canvas.Top="3" FontSize="48" Width="85" BorderBrush="{x:Null}" FontFamily="Engravers MT" Height="80" Foreground="Black" IsEnabled="False" Visibility="Hidden" >
+            <Button x:Name="HelpBtn" Style="{StaticResource HelpButtonStyle}" Content="" Canvas.Right="120" Canvas.Top="-19" FontSize="48" Width="134" BorderBrush="{x:Null}" FontFamily="Engravers MT" Height="123" Foreground="Black" Click="HelpBtn_Click" Canvas.Left="976" HorizontalAlignment="Left" VerticalAlignment="Center" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/HelpBtn.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="ReturnBtn" Content="" Canvas.Left="100" Canvas.Top="3" BorderBrush="{x:Null}" Height="80" Width="85" Click="ReturnBtn_Click" >
+            <Button x:Name="ReturnBtn" Style="{StaticResource BackButtonStyle}" Content="" Canvas.Left="100" Canvas.Top="3" BorderBrush="{x:Null}" Height="80" Width="85" Click="ReturnBtn_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/LeftBtn.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
             <Label x:Name="Scorelbl" Content="Score: " Canvas.Left="244" Canvas.Top="26" FontFamily="Bookman Old Style" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Width="251"/>
-            <Label x:Name="HighScorelbl" Content="Your HighScore: " Canvas.Left="544" Canvas.Top="27" FontFamily="Bookman Old Style" FontSize="36" FontWeight="Bold" Width="486" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label x:Name="HighScorelbl" Content="Your HighScore: " Canvas.Left="514" Canvas.Top="27" FontFamily="Bookman Old Style" FontSize="36" FontWeight="Bold" Width="486" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
         <Canvas Height="382" Width="1028" Name ="BookCanvas">
             <Border BorderBrush="Black" Name ="Book1" BorderThickness="1" Height="350" Width="100" Canvas.Bottom="0" Canvas.Left="0" MouseLeftButtonDown="Book1_MouseLeftButtonDown">
@@ -88,19 +88,20 @@
             </Border>
         </Canvas>
         <Grid Height="228">
-            <Button x:Name="RightBtn" Content="Move Right" HorizontalAlignment="Left" Margin="637,68,0,0" VerticalAlignment="Top" FontSize="24" Height="145" Width="223" BorderBrush="{x:Null}" FontFamily="Elephant" Foreground="White" Click="RightBtn_Click">
+            <Button x:Name="RightBtn" Content="Move Right" Style="{StaticResource RightArrowButtonStyle}" HorizontalAlignment="Left" Margin="637,68,0,0" VerticalAlignment="Top" FontSize="24" Height="145" Width="223" BorderBrush="{x:Null}" FontFamily="Elephant" Foreground="White" Click="RightBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/Right Arrow.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="LeftBtn" Content="Move Left" HorizontalAlignment="Left" Margin="328,67,0,0" VerticalAlignment="Top" FontSize="24" Height="145" Width="223" BorderBrush="{x:Null}" FontFamily="Elephant" Foreground="White" RenderTransformOrigin="0.5,0.5" Click="LeftBtn_Click">
+            <Button x:Name="LeftBtn" Content="Move Left" Style="{StaticResource LeftArrowButtonStyle}" HorizontalAlignment="Left" Margin="328,67,0,0" VerticalAlignment="Top" FontSize="24" Height="145" Width="223" BorderBrush="{x:Null}" FontFamily="Elephant" Foreground="White" RenderTransformOrigin="0.5,0.5" Click="LeftBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Resources/Left Arrow.png"/>
                 </Button.Background>
             </Button>
             <Button x:Name="ResetBtn" Style="{StaticResource CustomButtonStyle}" Content="Reset" HorizontalAlignment="Left" Margin="128,122,0,0" VerticalAlignment="Top" Click="ResetBtn_Click" Width="148" Height="70"/>
             <Button x:Name="CheckBtn" Style="{StaticResource CustomButtonStyle}" Content="Check" HorizontalAlignment="Left" Margin="911,118,0,0" VerticalAlignment="Top" Click="CheckBtn_Click" Width="148" Height="70"/>
+            <Button x:Name="Musicbtn" Content="" Style="{StaticResource SpecialMusicButtonStyle}" HorizontalAlignment="Left" Margin="1111,110,0,0" VerticalAlignment="Top" Click="Musicbtn_Click" Height="74" Width="70" Background="sc#0.9816146, 0.9816146, 0.9816146, 0.9816146"/>
         </Grid>
-        <!--<MediaElement x:Name="mediaPlayer" Source="/Resources/Emrod - Jennesys.mp3"  LoadedBehavior="Manual" UnloadedBehavior="Manual"  />-->
+        <MediaElement x:Name="backgroundMusic" Source="C:\Users\zanne\source\repos\PROG7312-AthenaeumGuru-ST10082074\PROG7312-AthenaeumGuru-ST10082074\Resources\Gibran Alcocer - Idea 15.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop" Volume="0.5" />
     </StackPanel>
 </Window>

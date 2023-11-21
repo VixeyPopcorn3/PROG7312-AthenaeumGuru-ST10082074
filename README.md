@@ -52,6 +52,8 @@ These instructions will help you get a copy of the project up and running on you
 11. Keep track of your high score as you continue to play.
 
 12. Want to go back to Main page? Click the Back button on the top left.
+    
+13. Peaceful Music Playing in the background. You can stop and start this by Clicking the Music Button on the bottom right.
 
 
 ## How to Play Identifying Areas Game
@@ -74,6 +76,8 @@ These instructions will help you get a copy of the project up and running on you
 
 9. Want to go back to Main page? Click the Back button on the top left.
 
+10. Peaceful Music Playing in the background. You can stop and start this by Clicking the Music Button on the bottom right.
+
 
 ## How to Play Finding Call Numbers Game
 
@@ -89,12 +93,14 @@ These instructions will help you get a copy of the project up and running on you
 	  	* Now you can complete the game the same way you did with the first level just a little harder by selecting the 2nd Level Catagory that matches the text on the left page and you will be informed of correct and incorrect answers.
 		* Once you have completed 2 levels you will be given a new game.
 
-6. Observe your score for the current game and your total score for all your games. This is in the top middle of the screen.
+5. Observe your score for the current game and your total score for all your games. This is in the top middle of the screen.
 
-7. Want to start over? Click the "Reset" button.
+6. Want to start over? Click the "Reset" button.
 
-8. Need help? Click the "Help" button for instructions on how to play.
+7. Need help? Click the "Help" button for instructions on how to play.
 
-9. Want to go back to Main page? Click the Back button on the top left.
+8. Want to go back to Main page? Click the Back button on the top left.
+
+9. Peaceful Music Playing in the background. You can stop and start this by Clicking the Music Button on the bottom right.
 
 Enjoy Athenaeum Guru
