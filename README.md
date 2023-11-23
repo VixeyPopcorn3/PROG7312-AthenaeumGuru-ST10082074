@@ -82,7 +82,7 @@ These instructions will help you get a copy of the project up and running on you
 
 
 ## How to Play Finding Call Numbers Game
-![Alt text](https://ibb.co/SsYwWbR)
+![Alt text]([https://ibb.co/SsYwWbR](https://i.postimg.cc/htmK7LGW/Finding-Call-Numbers.png))
 
 1. Select the Finding Call Numbers Button on the main page
 
