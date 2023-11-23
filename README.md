@@ -1,5 +1,5 @@
 # Athenaeum Guru
-
+![Alt text](https://ibb.co/ZgGXtcL)
 Athenaeum Guru is a fun and educational game that challenges your knowledge of library call numbers and descriptions. Test your understanding of library organization with a ReOrdering/Sorting Books Game, Identifying areas Game and Finding Call Numbers Games. Improve your scores and learn along the way!
 
 ## Table of Contents
@@ -28,6 +28,7 @@ These instructions will help you get a copy of the project up and running on you
 
 
 ## How to Play Reorder Books game.
+![Alt text](https://ibb.co/30zSnff)
 
 1. Launch the Athenaeum Guru application.
 
@@ -57,6 +58,7 @@ These instructions will help you get a copy of the project up and running on you
 
 
 ## How to Play Identifying Areas Game
+![Alt text](https://ibb.co/9G0DNx9)
 
 1. Select the Identifying Areas Button on the main page
 
@@ -80,6 +82,7 @@ These instructions will help you get a copy of the project up and running on you
 
 
 ## How to Play Finding Call Numbers Game
+![Alt text](https://ibb.co/SsYwWbR)
 
 1. Select the Finding Call Numbers Button on the main page
 
